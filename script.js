@@ -27,10 +27,10 @@ $(document).ready(function () {
     function searchWeather() {
         search = $('#search').val();
 
-        if(storage.indexOf(search) === -1) {
-            window.localStorage.setItem('cityHistory', JSON.stringify(history));
-            storage.push(search);
-        }
+//         if(storage.indexOf(search) === -1) {
+//             window.localStorage.setItem('cityHistory', JSON.stringify(history));
+//             storage.push(search);
+//         }
 
         let searchItem = $('<li>');
         searchItem.addClass('list-group-item list-group-item-action')
