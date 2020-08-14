@@ -1,3 +1,5 @@
+//THE API STOPPED WORKING AFTER UPLOAD : (
+
 $(document).ready(function () {
     let search = '';
     let lat = '';
